@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Draw">
+      <UniqueIdentifier>{bcffcea6-ea5b-479c-91b1-960b911e3ca8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Input">
+      <UniqueIdentifier>{8203a14a-974a-4309-bf98-763727c570e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Main">
+      <UniqueIdentifier>{539e2266-caa6-4e8b-aad3-bd101b1f2f0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scenes">
+      <UniqueIdentifier>{b8c54d9e-64f8-4f7a-9866-ab65948e6d68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scenes\Scene_Ingame">
+      <UniqueIdentifier>{4a19847e-6571-43d0-959d-b50c32893e48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scenes\Scene_Ingame\Ingame_Func">
+      <UniqueIdentifier>{a3a71598-dec0-4738-aeff-cc7eae799cee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scenes\Scene_Ingame\Class">
+      <UniqueIdentifier>{34ded746-3f21-4f40-b310-13ecd1dc980a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scenes\Scene_GameClear">
+      <UniqueIdentifier>{7087a4d0-27bc-485f-b045-c21fdf6fb8a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scenes\Scene_GameOver">
+      <UniqueIdentifier>{3e971686-9d1e-4374-983e-8522fb714697}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Draw.cpp">
+      <Filter>소스 파일\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>소스 파일\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>소스 파일\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Ingame.cpp">
+      <Filter>소스 파일\Scenes\Scene_Ingame</Filter>
+    </ClCompile>
+    <ClCompile Include="Ingame_Func.cpp">
+      <Filter>소스 파일\Scenes\Scene_Ingame\Ingame_Func</Filter>
+    </ClCompile>
+    <ClCompile Include="Field.cpp">
+      <Filter>소스 파일\Scenes\Scene_Ingame\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Gameset.cpp">
+      <Filter>소스 파일\Scenes\Scene_GameOver</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Gameclear.cpp">
+      <Filter>소스 파일\Scenes\Scene_GameClear</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Draw.h">
+      <Filter>소스 파일\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>소스 파일\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>소스 파일\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Ingame.h">
+      <Filter>소스 파일\Scenes\Scene_Ingame</Filter>
+    </ClInclude>
+    <ClInclude Include="Ingame_Func.h">
+      <Filter>소스 파일\Scenes\Scene_Ingame\Ingame_Func</Filter>
+    </ClInclude>
+    <ClInclude Include="Field.h">
+      <Filter>소스 파일\Scenes\Scene_Ingame\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Gameset.h">
+      <Filter>소스 파일\Scenes\Scene_GameOver</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Gameclear.h">
+      <Filter>소스 파일\Scenes\Scene_GameClear</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
